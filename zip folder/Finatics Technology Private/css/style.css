@@ -1,0 +1,280 @@
+*{ margin: 0px;padding: 0px;}
+
+/*navbar*/
+img#brand_icon{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+   border:6px solid #FF8303;
+
+}
+
+@media screen and (min-width: 720px) {
+  a#brand_name{
+  font-family: 'Roboto', sans-serif;
+  font-size:25px;
+  padding:20px 0px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  a#brand_name{
+  font-family: 'Roboto', sans-serif;
+  font-size:22px;
+  padding:20px 0px;
+  }
+}
+
+span.fa-bars
+{
+   font-size:24px;
+  padding:4px 8px;
+  border:1px solid black;
+}
+
+@media screen and (min-width: 720px) {
+ div#Responsive{
+  margin:0px 45px;
+  padding:0px 40px;
+  background-color: none !important;
+  }
+}
+
+@media screen and (max-width: 721px) {
+ div#Responsive{
+  margin:0px ;
+  padding:0px 10px;
+  justify-content: space-around;
+  }
+}
+
+li#nav_item {
+margin:0px 5px;
+padding:0px 17px;
+}
+
+#nav_item a {
+font-weight:bold;
+ position: relative;
+}
+
+#nav_item a:after {
+  content:"";
+  position: absolute;
+  top: 0%;
+  right: 0px;
+  height:3px;
+  width:0%;
+  background-color:#FF8303;
+  transition:all 0.3s linear;
+}
+
+/*navbar top border*/
+#nav_item a:hover:after {
+  width:100%;
+  background-color:#FF8303;
+}
+
+a#nav_item1 {
+  font-weight:600;
+  font-size:17px;
+  text-spacing:1px;
+  word-spacing:0px;
+ }
+
+a#nav_item2{
+  font-weight:600;
+  color:#FF8303;
+  font-size:17px;
+  text-spacing:1px;
+  word-spacing:0px;
+}
+
+a#nav_item2:after {
+  position: absolute;
+  top: 0%;
+  right: 0px;
+  height:3px;
+  width:100%;
+  background-color:#FF8303;
+}
+/*navbar end*/
+
+
+/*Gallery page*/
+
+div#card-container{
+  top:255px;
+  bottom:0px;
+  position:absolute;
+  width:100%;
+}
+
+div.card {
+  max-width:50%;
+  height:400px;
+  object-fit: cover;
+
+}
+
+div#orange_color{
+  height:335px;
+  width:100%;
+  background-color:#FF8303;
+  margin-top:-345px;
+   }
+
+img.a {
+     vertical-align: baseline;
+   }
+span.card-title{
+  font-size:16px;
+  font-weight:400;
+  font-family:roboto;
+  z-index: 3;
+  color:white;
+}
+
+p.card-text{
+   font-size:30px;
+   text-align:left;
+   font-weight:400;
+   color:white;
+}
+
+a.text-decoration-none{
+   top:60%;
+  text-decoration:none;
+  color:#DAE0E2;
+}
+
+img.image{
+  max-width:100%;
+  height:100%;
+  opacity:0.9;
+
+}
+p.card-text{
+  z-index:3;
+  color:white;
+}
+
+div#fsk{
+  top:-175px;
+   max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  left:0px;
+  right:0px;
+
+}
+  .hero #mainimg{
+    max-width:100%;
+    height:78vh;
+    object-fit: cover;
+    position:relative;
+    left:0px;
+    right:0px;
+  }
+.headline12{
+  position:absolute;
+  top:15%;
+  left:20%;
+  font-size:20px;
+  transform:translate(-20%, -70%);
+  color:white;
+  z-index: 3px;
+}
+
+.hero::after {
+  content:"";
+  background: black;
+  max-width:100%;
+  height:82vh;
+  position:absolute;
+  left:0px;
+  opacity: 0.1;
+  top:0vh;
+
+}
+
+div.section{
+  vertical-align: baseline;
+  right:50px;
+  left:80px;
+  bottom:1px;
+  padding-bottom: 0px;
+  margin:0px;
+  position:absolute;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.7)
+}
+button.tablink{
+background :#fafafa;
+border: none;
+outline: none;
+cursor: pointer;
+
+}
+img.tablink1 {
+  cursor: pointer;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  font-size: 17px;
+  width:50px;
+   height:45px;
+   padding:0px;
+   right:0px;
+   left:350px;
+}
+/*Gallery page end*/
+
+
+
+/*About page start*/
+
+div#banner_top{
+  max-width:100%;
+  height:60vh;
+  padding:0px;
+  margin:0px;
+  margin-bottom:0px;
+  overflow-y: hidden;
+  position:relative;
+  text-align: center;
+}
+
+
+ div#banner{
+  position:absolute;
+  padding:5px 0px 0px 0px;
+   margin:5px 0px 0px 0px;
+   max-width:100%;
+   height:60vh;
+   background-repeat:no-repeat;
+   backface-visibility: hidden;
+   overflow-y: hidden;
+   background-position:center center;
+}
+
+
+div#Lets_explore{
+   position: relative;
+   color: white;
+   cursor: pointer;
+
+}
+ .bottom-right {
+   position: absolute;
+   top:298px;
+   bottom: 0px;
+   right: 400px;
+   text-align:right;
+   background-color: #1c1c1c;
+   line-height: 1;
+ }
+/*About page End*/
